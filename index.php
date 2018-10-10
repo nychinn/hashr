@@ -11,13 +11,14 @@
 </head>
 <body>
 <div id="hashr">
-<pre id="hashr-logo">
+<pre id="hashr-logo" class="hashr-logo">
     __               __
    / /_  ____ ______/ /_  _____
   / __ \/ __ `/ ___/ __ \/ ___/
  / / / / /_/ (__  ) / / / /
-/_/ /_/\__,_/____/_/ /_/_/ Password hash generator
+/_/ /_/\__,_/____/_/ /_/_/ 
 </pre>
+<pre class="hashr-tagline">Password hash generator</pre>
     <input type="input" v-model="query" id="hashInput" placeholder="Type here...">
     <data-tables
             :data="results"
